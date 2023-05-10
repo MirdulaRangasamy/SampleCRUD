@@ -11,7 +11,7 @@ using namespace pqxx;
 	}
 	connection PostgresCRUD::getConnection()
 	{
-		connection c("dbname = sql_demo user = postgres password = exterro-123456 \
+		connection c("dbname = demo1 user = postgres password = exterro-123456 \
       hostaddr = 127.0.0.1 port = 5432");
 		
 		return c;

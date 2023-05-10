@@ -32,7 +32,7 @@ int main() {
 			break;
 		case 4:
 			cout << "Delete a Record" << endl;
-			query = "delete from person where pid=2";
+			query = "delete from person where pid=3";
 			cout << postgres.deleteRecord(query) << endl;
 			break;
 		case 5:
